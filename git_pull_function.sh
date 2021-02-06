@@ -9,8 +9,8 @@
 RootDir=$(cd $(dirname $0); cd ..; pwd)
 LogDir=${RootDir}/log
 ScriptsDir=${RootDir}/scripts
-ScriptsURL=https://github.com/lxk0301/jd_scripts
-ShellURL=https://github.com/EvineDeng/jd-base
+ScriptsURL=https://gitee.com/lxk0301/jd_scripts
+ShellURL=https://github.com/lan-tianxiang/jd_shell
 FileJdSample=${ShellDir}/jd.sh.sample
 ListShell=${LogDir}/shell.list
 ListJs=${LogDir}/js.list
