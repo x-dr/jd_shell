@@ -53,7 +53,7 @@ function Detect_Cron {
 ## 判断主机是不是Docker容器，如果不是，等待1秒
 function Detect_Docker {
   if [ -z "${isDocker}" ]; then
-    sleep 1
+    sleep 0.2
   fi
 }
 
