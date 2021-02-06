@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-## Author: Evine Deng
-## Source: https://github.com/EvineDeng/jd-base
+## Author: lan-tianxiang
+## Source: https://github.com/lan-tianxiang/jd_shell
 ## Modified： 2020-12-03
 ## Version： v2.3.8
 
@@ -42,7 +42,7 @@ function Detect_Cron {
     if [ ! -d ${ShellDir} ]
     then
       echo -e "\n${ShellDir} 目录不存在，开始克隆...\n"
-      git clone -b v3 https://github.com/lan-tianxiang/jd_shell ${ShellDir}
+      git clone -b main https://github.com/lan-tianxiang/jd_shell ${ShellDir}
       #由于GitHub库下线，暂时更改为我自用库
     else
       echo -e "\n${ShellDir} 目录已存在，跳过克隆...\n"
