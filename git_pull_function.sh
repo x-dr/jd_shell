@@ -80,8 +80,9 @@ function Detect_UserSum {
 
 ## git更新js脚本
 function Git_PullScripts {
-  echo -e "更新JS脚本，原地址：${ScriptsURL}\n"
+  echo -e "更新LXK9301脚本，原地址：${ScriptsURL}\n"
   git fetch --all
+  ExitStatusScripts=$?
   git reset --hard origin/master
   echo
 }
